@@ -1,0 +1,27 @@
+input,
+select,
+textarea{
+
+    width:100%;
+
+    padding:14px;
+
+    border:none;
+
+    outline:none;
+
+    border-radius:var(--border-radius);
+
+    background:var(--dark-light);
+
+    color:var(--white-color);
+
+}
+
+textarea{
+
+    resize:none;
+
+    height:120px;
+
+}

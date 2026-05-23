@@ -1,0 +1,55 @@
+.btn-primary{
+
+    display:flex;
+    align-items:center;
+    justify-content:center;
+
+    height:55px;
+
+    padding:0 28px;
+
+    border-radius:14px;
+
+    background:var(--gradient-primary);
+
+    color:var(--white);
+
+    font-weight:600;
+
+    transition:var(--transition);
+
+}
+
+.btn-primary:hover{
+
+    transform:translateY(-3px);
+
+}
+
+.btn-outline{
+
+    display:flex;
+    align-items:center;
+    justify-content:center;
+
+    height:55px;
+
+    padding:0 28px;
+
+    border-radius:14px;
+
+    border:1px solid var(--border);
+
+    background:transparent;
+
+    color:var(--white);
+
+    transition:var(--transition);
+
+}
+
+.btn-outline:hover{
+
+    background:rgba(255,255,255,.05);
+
+}
